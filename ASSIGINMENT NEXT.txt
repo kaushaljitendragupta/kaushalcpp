@@ -1,0 +1,43 @@
+ANS 1: GIT IS A POPULAR VERSION CONTROL SYSYETEM (VCS) 
+IT WAS CREATED BY LINES TORVALDS IN 2005 AND HAS BEEN MAINTAINED BY JUNIO HAMANO
+
+ANS 2:  VCS STATNDS FOR GENRATING COLLOBRATIVE ENIVIRNMOMENT
+GIT IS HELP US MAITAIN THE CODE
+
+ANS 3:  GitHub is a code hosting platform for version control and collaboration. 
+It lets you and others work together on projects from anywhere. 
+This tutorial teaches you GitHub essentials like
+ repositories, branches, commits, and pull requests.
+
+ANS 4: . Officially over 70 million users are registered there.
+ This is not a coincidence as GitHub provides many useful features
+ and is in many cases free, e.g. for open-source projecT
+GitHub is a Web-based Git repository
+ hosting service, which offers all of the distributed revision control
+ and source code management (SCM) functionality of Git.
+
+ANS 5:  The types of VCS are:
+Local Version Control System.
+Centralized Version Control System.
+Distributed Version Control System.
+
+ANS 6: 
+1   Performance. Git performs very strongly and reliably when compared 
+to other version control systems. ...
+2  Security. Git is designed specially to maintain the 
+integrity of source code. ...
+3  Flexibility. ...
+4  Wide acceptance. ...
+Quality open source project.
+
+ANS7:A Git repository tracks and saves the history of all changes
+ made to the files in a Git project.
+ It saves this data in a directory called . 
+git , also known as the repository folder.
+ Git uses a version control system to track all changes
+ made to the project and save them in the repository.
+
+ANS 8: To create a new repo, you'll use the git init command.
+ git init is a one-time command you use during the initial setup of a new repo. 
+Executing this command will create a new .
+git subdirectory in your current working directory.

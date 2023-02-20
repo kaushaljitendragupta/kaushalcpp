@@ -1,0 +1,40 @@
+ans 1:   programming language is a vocabulary and set
+ of grammatical rules for instructing a computer
+ or computing device to perform specific tasks. • 
+The term programming language usually refers to high-level languages,
+ such as BASIC, C, C++, COBOL, Java, FORTRAN, Ada, and Pascal.
+
+ans  2:The programing language enables us to write efficient 
+programs and develop online solutions such as- mobile applications,
+ web applications, and games, etc. Programming is used to automate,
+ maintain, assemble,measure and interpret the processing of the data and information.
+
+ans  3:  Simple.
+Object-Oriented.
+Platform Independent.
+Portable.
+Robust.
+Secure.
+Interpreted.
+Multi-Threaded.
+
+
+ans 4:  A Java object is a member (also called an instance) 
+of a Java class. Each object has an identity, a
+ behavior and a state. The state of an object is 
+stored in fields (variables), while methods (functions) 
+display the object's behavior.
+ Objects are created at runtime from templates, 
+
+ans 5:
+A class — in the context of Java — 
+is a template used to create objects and to define 
+object data types and methods. Classes are categories, 
+and objects are items within each category. 
+ 
+
+ans 6: The Java main method is usually the first method you 
+learn about when you start programming in Java because its
+ the entry point for executing a Java program. 
+The main method can contain code to execute or call other methods, 
+and it can be placed in any class that's part of a program.

@@ -1,0 +1,19 @@
+ans1:computer is a electonic device such that it recived input 
+then done process then give output 
+
+ans2: Ram is volatile main memory .it is directly connected
+ to cpu or processor
+
+ans3:secondry memory
+
+ans4: keyboard 
+
+
+ans5: MOUSE
+
+
+ANS 6:binery
+
+ans 7: Input device are those device such that recive input from 
+user.
+exp:   keyboard ,mouse ,scanner, mice etc.

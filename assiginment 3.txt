@@ -1,0 +1,45 @@
+ans 1:  Open the command prompt "terminal" and 
+type git version to verify Git was installed.
+
+ans 2:  1Create a new repository on GitHub.com. ...
+2  Open TerminalTerminalGit Bash.
+3   Change the current working directory to your local project.
+4  Use the init command to initialize the local directory as a Git repository. ...
+5  Add the files in your new local repository. ...
+6  Commit the files that you've staged in your local repository.
+
+ans 3:  1  Open the command line.
+2    Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+3   Set your email address: git config --global user.email "MY_NAME@example.com"
+
+ans 4: 1 Enter one of the following commands, depending on what you want to do: Stage all files: git add . Stage a file: git add example. html (replace example. ...
+2  Check the status again by entering the following command: git status.
+3  You should see there are changes ready to be committed.
+
+ans 5:  To remove a file from Git,
+ you have to remove it from your tracked files (more accurately,
+ remove it from your staging area) and then commit. The git rm command does that,
+ and also removes the file from your working 
+directory so you don't see it as an untracked file 
+the next time around.
+
+ans 6:  The easiest way to create 
+a Git commit with a message is to execute 
+“git commit” with the “-m” option followed by your
+ commit message. When using the Git CLI, note that 
+you should restrict
+ your commit message
+ in order for it not to be wrapped
+
+ans 7:  To push the commit from the local repo to your remote repositories,
+ run git push -u remote-name branch-name where
+ remote-name is the nickname the local repo uses for
+ the remote repositories and branch-name is the name of 
+the branch to push to the repository. 
+You only have to use the -u option the first time you push.
+
+ans 8:  git clone is how you get a local copy of an existing repository to work on.
+ git pull (or git fetch + git merge ) is how you update that local 
+copy with new commits from the remote repository.
+
+
