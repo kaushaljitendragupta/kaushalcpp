@@ -1,0 +1,110 @@
+Ans 1:
+The operator is applied between two Boolean expressions. 
+It is denoted by the two OR operator (||).
+ It returns true if any of the expression is true, 
+else returns false. Expression1. Expression2.
+
+
+Ans 2:
+Operators in Java can be classified into 5 types:
+Arithmetic Operators.
+Assignment Operators.
+Relational Operators.
+Logical Operators.
+Unary Operators.
+Bitwise Operators.
+
+ANS 3:
+
+The switch statement evaluates an expression, 
+matching the expression's value against a series
+ of case clauses, and executes statements after 
+the first case clause with a matching value, until 
+a break statement is encountered.
+
+ans 4:
+
+ In Java, parentheses() and Array subscript[]
+ have the highest precedence in Java. For example, 
+Addition and Subtraction have higher precedence
+ than the Left shift and Right shift operators.
+When two operators share a single operand, the operator 
+having the highest precedence goes first. For
+ example, x + y * z is treated as x + (y * z), 
+whereas x * y + z is treated as (x * y) + z because * operator has highest precedence in comparison of + operator.
+
+Associativity
+Associative is a concept related to the operators 
+applied when two operators with the same precedence 
+come in an expression. The associativity concept is 
+very helpful to goes from that situation. Suppose we
+ have an expression a + b - c (+ and - operators hav
+e the same priority),
+ and this expression will be treated as
+ (a + (b - c)) because these operators 
+are right to left-associative. On the other hand,
+ a+++--b+c++ will be treated as ((a++)+((--b)+(c++)))
+ because the unary post-increment and decrement operators
+ are right to left-associative.
+
+ans 5:
+You can use these conditions to perform different actions 
+for different decisions. Java has the following conditional 
+statements: Use if to specify a block of 
+code to be executed, if a specified condition is true. 
+Use else to specify a block of code to be executed,
+ if the same condition is false.
+
+ans 6:
+Syntax:
+ if(condition1)
+{ //code to be executed if condition1 is true. }
+else if(condition2){
+
+}else
+{
+//default case
+}
+
+ans 7:
+The three types of iteration constructs are:
+For loop: Executes a set of statements a fixed number of times.
+While loop: Repeats a set of statements while a given condition is true.
+Do-while loop: Repeats a set of statements 
+at least once and then continues
+ to repeat as long as a given condition is true.
+
+ans 8:
+for loop provides a concise way of writing the loop structure.
+ Unlike a while loop, a for statement consumes the initialization,
+ condition and increment/decrement in one line thereby providing a 
+shorter, easy to debug structure of looping.
+
+
+do while loop is similar to while loop with the only difference that it checks for the condition after executing the statements, and therefore is an example of Exit Control Loop.
+
+Syntax:
+for (initialization condition; testing condition; 
+                              increment/decrement)
+{
+    statement(s)
+}
+
+do
+{
+    statements..
+}
+while (condition);
+
+ans 9:
+
+public class Use_For_Loop
+{
+    public static void main(String[] args)
+    {
+        for(int i = 1; i <= 10; i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
