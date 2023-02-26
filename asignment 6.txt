@@ -1,0 +1,87 @@
+ans 1 =
+ statically typed :
+					programing language reffered to as "static typed"
+if the memory of the variable is provided at the time of compilation for instance 
+like c,c++,and java etc....
+
+dynamically typed :
+programing language are said to as "dynamically typed" If the memory 
+for the variable is provide at the time of execution like python ,PHP,
+and Javascript....
+
+ans 2:
+Variables are containers for storing data values.
+ In Java, there are different types of variables, for example: String
+ - stores text, such as "Hello".
+ String values are surrounded by double quotes.
+ int - stores integers
+ (whole numbers), without decimals, such as 123 or -123.
+
+ans 3:
+A primitive type is predefined by the language and is named by
+ a reserved keyword. Primitive values do not share state 
+with other primitive values. The eight primitive data types 
+supported by the Java programming language are: byte: 
+The byte data type is an 8-bit signed two's complement integer.
+
+
+ans 4:
+Identifiers in Java are names that distinguish between different
+ Java entities, such as classes, methods, variables, and packages. 
+Identifiers include the names of classes, methods, variables, 
+packages, constants, etc. 
+These identifiers are each specified using a specific syntax 
+and naming scheme.
+
+ans 5:
+Java supports the following types of operators:
+Arithmetic Operators.
+Assignment Operators.
+Logical Operators.
+Relational Operators.
+Unary Operators.
+Bitwise Operators.
+Ternary Operators.
+Shift Operators.
+
+
+ans 6:
+In programming (Java, C, C++, JavaScript etc.), the increment operator ++ 
+increases the value of a variable by 1. 
+Similarly, the decrement operator -- decreases the value of a variable by 1.
+
+a = 5
+++a;          // a becomes 6
+a++;          // a becomes 7
+--a;          // a becomes 6
+a--;          // a becomes 5
+Simple enough till now. However, there is an important difference
+ when these two operators are used as a prefix and a postfix.
+
+++ and -- operator as prefix and postfix
+If you use the ++ operator as a prefix like: ++var, the value of var is 
+incremented by 1; then it returns the value.
+If you use the ++ operator as a postfix like: var++, the original value of var
+ is returned first; then var is incremented by 1.
+The -- operator works in a similar way to 
+the ++ operator except -- decreases the value by 1.
+
+for example :
+
+class Operator {
+    public static void main(String[] args) {
+        int var1 = 5, var2 = 5;
+
+        // 5 is displayed
+        // Then, var1 is increased to 6.
+        System.out.println(var1++);
+
+        // var2 is increased to 6
+        // Then, var2 is displayed
+        System.out.println(++var2);
+    }
+}
+
+
+
+
