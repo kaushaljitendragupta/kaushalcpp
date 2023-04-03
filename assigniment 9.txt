@@ -1,0 +1,66 @@
+
+ans 1:
+An array is a container object that holds a fixed number 
+of values of a single type. The length of an array is
+ established when the array iscreated. After creation,
+ its length is fixed.
+
+ans 2:
+one d array;
+type var-name[];
+OR
+type[] var-name;
+
+two d array;
+// Syntax 
+       int [][] arr= new int[3][3];
+      // 3 row and 3 column
+
+ans 3:
+Size of an array
+If you create an array by initializing its values directly,
+ the size will be the number of elements in it. Thus the size
+ of the array is determined at the time of its creation or, initialization 
+once it is done you cannot change the size of the array.;
+
+ans 4:
+Yes. We can declare an array without
+ size but before using it needs to be initialized.
+ans 5:
+Doing this, java will assign the default value 0 to each 
+element of the array in the case of an int array. Similarly,
+ in the case of a boolean array, it will be false, in the case
+ of a String array the default value is null in java, and in the
+in case of a char arry the default value is unicode (\000).
+ans 6:
+
+A one-dimensional array in Java is a collection of similar types of elements
+ stored at contiguous memory locations. The data is stored in a continuous manner,
+ which makes operations like search, delete, insert etc., much easier.
+
+Arrays can be one-dimensional or multi-dimensional. One dimensional arrays can store
+ multiple values of the same primitive type such as int, float, long,
+ String, etc. or objects of the same class.
+ case of a char array, the default value is Unicode (\u0000).
+int number[]; // array declared
+    number = new int[10]; // allocating memory, initialization
+    number[0] = 11;
+    number[1] = 22;
+    number[2] = 33;
+    number[3] = 44;
+    number[4] = 55;
+    number[5] = 66;
+    number[6] = 77;
+    number[7] = 88;
+    number[8] = 99;
+    number[9] = 100;
+ans 7:
+
+import java.util.Scannner;
+public class Main{
+public static void main(string[] args){
+int number[][]={{5,6},{7,6}};
+system.out.println(number[0][1]);
+}
+
+}

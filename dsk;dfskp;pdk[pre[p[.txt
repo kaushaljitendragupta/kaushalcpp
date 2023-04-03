@@ -1,0 +1,8 @@
+what is default value of array for differnt data types
+can you pass the number in array size 
+where does arrray stored in jvm memorey  
+what are the disadvantages of array 
+what is an anoymous array in java give an example 
+what are different ways to traverse ans array in java
+what is differnt between length and length() method give 
+and examplekdrfplkdl

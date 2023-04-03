@@ -1,0 +1,43 @@
+ans 1:in java,Using the new keyword is the most
+ popular way to create an 
+object or instance of the class.
+ When we create an instance of the 
+class by using the new keyword, 
+
+ we can create in various ways;
+
+ 1  Using a new keyword.
+2  Using the newInstance () method of the 
+Class class.
+3  Using the newInstance() method of the
+ Constructor class.
+4  Using Object Serialization and
+ Deserialization.
+5  Using the clone() method.
+
+ans 2: The new keyword in Java instantiates a class by
+ allocating desired memory for an associated new object. 
+It then returns a reference to that memory. Many times,
+ the new keyword in Java is also used to create the array
+ object. The new keyword is followed by a call to a
+ constructor, which instantiates the new object.
+
+ans 3:There are three types of variables in Java:
+ Local, Instance, and Static
+
+ans 4:Local variable: This is a variable that is declared
+ inside the body of a method. Instance variable: This Java 
+variable is defined without the STATIC keyword, but as 
+outside of a method declaration. They are object-specific 
+variables, which is why they are known by this name.
+
+ans 5:Instance variables are created during the creation of 
+an object in the heap memory(Heap is the part of the memory 
+that is allocated by the JVM that is shared among all
+ the threads of the java program) 
+
+ans 6: In Java, method overriding occurs when a subclass 
+(child class) has the same method as the parent class. 
+In other words, method overriding occurs when a subclass
+ provides a particular implementation of a method declared 
+by one of its parent classes

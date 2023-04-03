@@ -1,0 +1,75 @@
+ans 1 using new keyword ;
+
+ans 2: ans create an object in java;
+
+ans 3:there are three types of variables in java
+
+Instance variable:
+An instance variable is a variable that is declared 
+in a class 
+local variable:
+ local
+ variable is a variable declared within a method 
+or a constructor
+static variable:
+In Java, static variables are also called class variables. 
+That is, they belong to a class and not a particular instance.
+ As a result, class initialization will initialize
+ static variables. In contrast, a class's 
+instance will initialize the instance variables
+
+
+ans 4:
+An instance variable is a variable that is declared 
+in a class but outside a method while the local
+ variable is a variable declared within a method 
+or a constructor. Thus, this is the main difference 
+between instance variable and local variable.
+
+Instance Variable: These variables are declared within a class but outside a method, constructor, or block and always get a default value.
+
+These variables are usually created when we create an object and are destroyed when the object is destroyed.
+We may use an access specifier, for instance, variable, and if no access specifier is specified, then the default access specifier is used.
+Each and every object will have its own copy of instance variables.
+Example:
+
+class Taxes  
+{  
+   int count; // Count is an Instance variable  
+   /*...*/  
+}  
+Local Variable: These variables are declared 
+within a method but do not get any default value.
+
+
+They are usually created when we enter a method or constructor 
+and are destroyed after exiting the block or when the call
+ returns from the method.
+Its scope is generally limited to a method and its
+ scope starts from the line 
+they are declared. Their scope usually remains
+ there until the closing curly brace of the method comes.
+The initialization of the local variable is mandatory.
+Example:
+
+int area()      
+{    
+        int length = 10; // Local variable          
+        int breadth = 5; // Local variable          
+        int rectarea = length*breadth; // Local variable          
+        return rectarea;          
+}  
+
+ans 5:
+local variable stack area;
+instanc variable heap area;
+
+ans 6:
+What do you mean by method overloading?
+Method overloading in Java means having 
+two or more methods (or functions) in a class
+ with the same name and different arguments
+ (or parameters). It can be with a different 
+number of
+ arguments or different data types of
+ arguments.
