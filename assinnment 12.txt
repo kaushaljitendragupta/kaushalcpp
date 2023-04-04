@@ -1,0 +1,137 @@
+ans 1:  Doing this, java will assign the default value 0 to each element of the array in the case of an int array.
+
+Similarly, in the case of a boolean array, it will be false, in the case of a String array the default value is null in java, and in the case of a char array, the default value is Unicode (\u0000).
+
+
+
+ans 2:In general, arrays are the containers that store multiple variables of the same datatype. These are of fixed size and the size is determined at the time of creation. Each element in an array is positioned by a number starting from 0.
+
+
+
+You can access the elements of an array using name and position as −
+
+System.out.println(myArray[3]);
+//Which is 1457
+Creating an array in Java
+In Java, arrays are treated as referenced types you can create an array using the new keyword similar to objects and populate it using the indices as −
+
+int myArray[] = new int[7];
+While creating array in this way, you must specify the size of the array.
+
+You can also directly assign values within flower braces separating them with commas (,) as −
+
+int myArray = {1254, 1458, 5687, 1457, 4554, 5445, 7524};
+Negative value as the size
+No, you cannot use a negative integer as size, the size of an array represents the number of elements in it, –ve number of elements in an array makes no sense.
+
+Still if you do so, the program gets compiled without issues but, while executing it generates a runtime exception of type NegativeArraySizeException
+
+Example
+In the following Java program, we are trying to create an array with a negative value as size.
+
+public class Test {
+   public static void main(String[] args) {
+      int[] intArray = new int[-5];
+   }
+}
+
+
+ans 3:As discussed, the reference types in Java are stored in heap area. Since arrays are reference types (we can create them using the new keyword) these are also stored in heap area
+
+
+ans 4:A. We must know before hand how many elements will be there in the array.
+B. There are chances of wastage of memory space if elements inserted in an array are lesser than than the allocated size.
+C. Insertion and deletion becomes tedious.
+
+
+ans 5:In addition to the above specified ways you can create an array without specifying any name such arrays are known as anonymous arrays. Since it doesn’t have name to refer you can use it only once in your program. Generally, anonymous arrays are passed as arguments to methods.
+
+
+exp :public class AnonymousArray {
+   public static void arrayToUpperCase(String [] array) {
+      for(int i=0; i< array.length; i++) {
+         char[] ch = array[i].toCharArray();
+         for(int j=0; j<ch.length; j++){
+            ch[j] = Character.toUpperCase(ch[j]);
+         }
+         System.out.println(new String(ch));
+      }
+   }
+   public static void main(String args[]) {
+      arrayToUpperCase(new String[] {"Krishna", "Vishnu", "Dhana", "Rupa", "Raja", "Kavya"});
+   }
+}
+
+
+ans 6:you can traverse through an array using for loop or forEach loop. Using the for loop − Instead on printing element by element, you can iterate the index using for loop starting from 0 to length of the array (ArrayName. length) and access elements at each index
+
+ans 7:The key difference between Java’s length variable and Java’s length() method is that the Java length variable describes the size of an array, while Java’s length() method tells you how many characters a text String contains.
+
+th vs length(): What's the difference?
+Cameron McKenzie
+Cameron McKenzie
+TechTarget
+09 Jun 2022
+  
+About This Blog
+Community driven content discussing all aspects of software development from DevOps to design patterns.
+
+Latest Blog Posts
+Why is the Bootstrap grid system 12 columns wide?
+There's a new Java build system named Bld
+How to use the Google Chrome color picker extension
+See More
+Related Content
+Java array size, length and loop examples
+– TheServerSide.com
+How do I find the Java array length?
+– TheServerSide.com
+How do I find the Java String length?
+– TheServerSide.com
+Sponsored News
+Why IT Must Break Down Silos as Part of its Digital Transformation Initiative
+–Citrix
+Can Backups Scale? The Vanishing Backup Window
+–Exagrid
+See More
+Vendor Resources
+Handbook: Infrastructure Basics for Real World Integrations
+–TechTarget Business Analytics
+
+
+Java length vs length() explained
+The key difference between Java’s length variable and Java’s length() method is that the Java length variable describes the size of an array, while Java’s length() method tells you how many characters a text String contains.
+
+
+The Java length method
+To get information about an object in Java, you typically go through a public method.
+
+To get the size of a String in Java, you call the String’s length() method. This tells you how many characters a String contains.
+
+A length() example for Java Strings
+Here is a simple example of using the Java length() method to get the number of characters in a String:
+
+String simpleString = "Length example";
+int listSize = simpleString.length();
+Notice the round brackets at the end of the Java length() method. This is one of the primary differences between the length() method and Java’s length property.
+
+The Java length property
+To get the size of an array in Java, you access the array’s length property.
+
+Notice how we have switched from talking about Java’s length() method to Java’s length property. This is a primary difference between the two uses of the word length in Java.
+
+
+A length example for Java arrays
+Here is an example of using the Java length method to get the number of elements in an array:
+
+int[] simpleArray = {1,2,3,4,5};
+int simpleArraySize = simpleArray.length;
+Differences between Java length and length()
+Here are the key differences between the two Java length constructs and how to use them in code:
+
+The Java length property is used with the String class
+The Java length method is used with the array class
+The Java length property returns the size of an array
+The Java length method returns the number of characters in a text String
+The Java length method must have round brackets at the end
+The Java length property throws a compile error if you add round brackets.

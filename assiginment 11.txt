@@ -1,0 +1,136 @@
+ans 1:An array is a container object that holds a fixed number 
+of values of a single type. The length of an array is established 
+when the array is created. After creation, its length is fixed.
+ You have seen an example of arrays already, in 
+the main method of the "Hello World!"
+
+
+
+ans 2: 
+class Main {
+ public static void main(String[] args) {
+   // create an array
+   int[] age = {12, 4, 5, 2, 5};
+
+ // access each array elements
+   System.out.println("Accessing Elements of Array:");
+   System.out.println("First Element: " + age[0]);
+   System.out.println("Second Element: " + age[1]);
+   System.out.println("Third Element: " + age[2]);
+   System.out.println("Fourth Element: " + age[3]);
+   System.out.println("Fifth Element: " + age[4]);
+ }
+}
+
+
+ans 3:Arrays can either hold primitive values or object values.
+ An ArrayList can only hold object values. You must decide the
+ size of the array when it is constructed. You can't change the
+ size of the array after it's constructed.
+
+
+
+ans 4:We can declare an array without size but before 
+using it needs to be initialized
+
+
+
+ans 5:Doing this, java will assign the default value 0 to each element of the array in the case of an int array. Similarly, in the case of a boolean array, it will be false, in the case of a String array the default value is null in java, and in the case of a char array, the default value is Unicode (\u0000)
+
+
+
+ans 6:A One-Dimensional Array in Java programming is a special type of variable that can store multiple values of only a single data type such as int, float, double, char, etc. at a contagious location in computer memory.
+
+Program to input 10 numbers in an array and display only the even numbers if present in the array.
+
+import java.util.Scanner;
+
+public class Example
+{
+    public static void main(String args[])
+    {
+        int a[]=new int[10], i;
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println("Enter 10 numbers");
+        for(i=0; i<10; i++)
+        {
+            a[i]=sc.nextInt();
+        }
+
+        System.out.println("List of even numbers");
+        for(i=0; i<10; i++)
+        {
+            if(a[i]%2==0)
+            {
+                System.out.print(a[i]+" ");
+            }
+        }
+    }
+}
+Output
+Enter 10 numbers
+11
+15
+28
+31
+49
+54
+72
+81
+93
+14
+List of even numbers
+28 54 72 14
+Here, you can see that we have run a for loop 10 times to store the user's input in the array. After that we have run another for loop 10 times to access each number from the array and print only the even numbers from it.
+
+Example 2
+Program to input 5 numbers in an array and print all the numbers from the backside of the array. Example: 12 18 16 Output: 16 18 12
+
+import java.util.Scanner;
+
+public class Example
+{
+    public static void main(String args[])
+    {
+        int a[]=new int[5], i;
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println("Enter 5 numbers");
+        for(i=0; i<5; i++)
+        {
+            a[i]=sc.nextInt();
+        }
+
+        for(i=4; i>=0; i--)
+        {
+            System.out.print(a[i]+" ");
+        }
+    }
+}
+//Output
+//Enter 5 numbers
+//48
+//21
+//97
+//64
+//53
+//53 64 97 21 48
+
+
+
+
+
+ans 7:
+class TwodimensionalStandard
+{
+	public static void main(String args[])
+	{    
+	int[][] a={{10,20},{30,40}};//declaration and initialization   
+	System.out.println("Two dimensional array elements are");    
+	System.out.println(a[0][0]);    
+	System.out.println(a[0][1]);    
+	System.out.println(a[1][0]);    
+	System.out.println(a[1][1]);    	
+	}
+}

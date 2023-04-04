@@ -1,0 +1,25 @@
+ans 1:Strings, which are widely used in Java programming, are a sequence of characters. In the Java programming language, strings are objects. The Java platform provides the String class to create and manipulate strings
+
+
+ans 2:Types of strings in Java
+Primitive strings. These are string literals or string calls from a nonconstructor context. A constructor is a special method used to initialize objects. ...
+Object strings. These are strings created using the new operator. Object strings create two objects, whereas primitives create just one.
+
+
+ans 3:There are two ways to create a String object: By string literal : Java String literal is created by using double quotes. For Example: String s=“Welcome”; By new keyword : Java String is created by using a keyword “new”.
+
+
+ans 4:The String constant pool is a special memory area. When we declare a String literal, the JVM creates the object in the pool and stores its reference on the stack. Before creating each String object in memory, the JVM performs some steps to decrease the memory overhead
+
+
+ans 5:A mutable object can be changed after it's created, and an immutable object can't.
+What is mutable and immutable objects?
+An object that allows you to change its values without changing its identity is a mutable object. The changes that you can perform on a mutable object's value are known as mutations. In contrast, an object that doesn't allow changes in its value is an immutable object
+
+ans 6:heap memory
+The Java string constant pool is an area in heap memory where Java stores literal string values. The heap is an area of memory used for run-time operations. When a new variable is created and given a value, Java checks to see if that exact value exists in the pool.
+
+
+
+
+
